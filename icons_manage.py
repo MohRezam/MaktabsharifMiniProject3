@@ -1,5 +1,4 @@
 from pathlib import Path
-import re
 
 
 png_path = Path.cwd().joinpath("front", "images")

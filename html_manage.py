@@ -17,4 +17,7 @@ for html_file in htmls:
 
     new_html_content = re.sub(pattern, new_path + r'\1', html_data)
 
-    # Path(html_path).write_text(new_html_content)
+    Path(html_path).write_text(new_html_content)
+
+
+
